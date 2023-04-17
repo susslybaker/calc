@@ -186,5 +186,10 @@ namespace Calculator
                 line = line.Replace(".", ",");
             }
         }
+
+        public static string IndexLast(int str)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
