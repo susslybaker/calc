@@ -20,3 +20,11 @@ C:\Users\Владимир\Desktop\calc\Calc\Main\obj\Debug\Main.csproj.Suggested
 C:\Users\Владимир\Desktop\calc\Calc\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
 C:\Users\Владимир\Desktop\calc\Calc\Main\obj\Debug\Main.exe
 C:\Users\Владимир\Desktop\calc\Calc\Main\obj\Debug\Main.pdb
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\bin\Debug\Main.exe.config
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\bin\Debug\Main.exe
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\bin\Debug\Main.pdb
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\obj\Debug\Main.csproj.SuggestedBindingRedirects.cache
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\obj\Debug\Main.exe
+C:\Users\Владимир\Desktop\Calcula\calc-main\Calc\Main\obj\Debug\Main.pdb

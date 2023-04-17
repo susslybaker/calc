@@ -88,7 +88,7 @@ namespace Calculator
             return "";
         }
 
-        public  static string CountUp(string oper, string left, string right)
+        public static string CountUp(string oper, string left, string right)
         {
             Dot_Comma(ref left);
             Dot_Comma(ref right);
@@ -112,7 +112,7 @@ namespace Calculator
             return result;
         }
 
-        public  static string CountUp(string oper, string center)
+        public static string CountUp(string oper, string center)
         {
             Dot_Comma(ref center);
             string result = "";
@@ -148,7 +148,7 @@ namespace Calculator
             return result;
         }
 
-        public  static int IndexLast(string line)
+        public static int IndexLast(string line)
         {
             int count = 0, index = line.IndexOf(')');
             for (int i = 0; i < line.Length; i++)
@@ -175,7 +175,7 @@ namespace Calculator
             }
         }
 
-       public static  void Dot_Comma(ref string line)
+        public static void Dot_Comma(ref string line)
         {
             if (line.Contains(","))
             {
