@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CF2NjmJtnEjtN9En15E/sTvdhBOoPzXukD6CvZotFbkQeGQvjpMDaeLEbqO07qeBxnd5elGE3hk3xcRaRK3AbA==",
+  "dgSpecHash": "Fb31zzbk+5L+WLxQpislJIoHAM+LT+5+6w42up6Wezu7QBaMhy1TOkNw1YRxJls+yhMMZajmQP+bJwVlPT1SBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Владимир\\Desktop\\Технология разработки ПО\\Курсовая\\Calc\\TestCalc\\TestCalc.csproj",
+  "projectFilePath": "C:\\Users\\Владимир\\Desktop\\calc\\Calc\\TestCalc\\TestCalc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Владимир\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Владимир\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",
