@@ -14,10 +14,10 @@ jobs:
             with:
               dotnet-version: ${{ matrix.dotnet-version }}
           - name: Install dependencies
-            run: dotnet Release —no-restore
+            run: dotnet restore 
             working-directory: Calc
           - name: Build
-            run: dotnet build
+            run: dotnet build —configuration Release —no-restore
             working-directory: Calc
           - name: Test
             run: dotnet test -no-restore —verbosity normal
