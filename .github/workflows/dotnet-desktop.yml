@@ -18,8 +18,8 @@ jobs:
             working-directory: ConsoleApp
           - name: Build
             run: dotnet build —configuration Release —no-restore
-            working-directory: ./Program.cs
+            working-directory: './Program.cs'
           - name: Test
             run: dotnet test -no-restore —verbosity normal
-            working-directory: ./TestCalc.csproj
+            working-directory: './TestCalc.csproj'
             
