@@ -16,7 +16,6 @@ jobs:
           - name: Install dependencies
             run: dotnet restore
             working-directory: Calc
-
           - name: Build
             run: dotnet build 
             working-directory: Calc
