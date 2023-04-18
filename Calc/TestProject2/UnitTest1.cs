@@ -3,6 +3,8 @@ using Calculator;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 using System.Reflection.Metadata;
 
+
+
 namespace TestCalc
 {
     public class Tests
@@ -193,7 +195,7 @@ namespace TestCalc
             string oper = "sin";
 
             string cent = "100";
-            string expected = "0.984807753012208";
+            string expected = "0,984807753012208";
 
             //Act
             string actual = MyCalc.CountUp(oper, cent);
@@ -209,7 +211,7 @@ namespace TestCalc
             string oper = "cos";
 
             string cent = "100";
-            string expected = "-0.1736481776669303";
+            string expected = "-0,1736481776669303";
 
             //Act
             string actual = MyCalc.CountUp(oper, cent);
@@ -226,7 +228,7 @@ namespace TestCalc
             string oper = "tan";
 
             string cent = "100";
-            string expected = "-5.671281819617711";
+            string expected = "-5,671281819617711";
 
             //Act
             string actual = MyCalc.CountUp(oper, cent);

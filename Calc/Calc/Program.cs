@@ -1,5 +1,8 @@
-﻿namespace Calculator
+﻿
+namespace Calculator
 {
+    
+   
     public class MyCalc
     {
         static void Main(string[] args)
