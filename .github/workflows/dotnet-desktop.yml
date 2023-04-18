@@ -20,7 +20,7 @@ jobs:
             run: dotnet build 
             working-directory: Calc
           - name: Test
-            run: dotnet test -no-restore —verbosity normal
+            run: dotnet test
             working-directory: Calc
 
             
