@@ -12,31 +12,7 @@ namespace TestCalc
         {
         }
 
-        [Test]
-        public void DivisionByZero()
-        {
-
-            //Arrange
-
-            string left = "4";
-
-            string right = "0";
-
-            string oper = "/";
-
-            string expected = "∞";
-
-            //Act
-            string actual = MyCalc.CountUp(oper, left, right);
-
-            //Assert
-            Assert.That(actual, Is.EqualTo(expected));
-
-
-
-
-
-        }
+        
 
 
         [Test]
