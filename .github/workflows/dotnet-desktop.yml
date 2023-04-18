@@ -15,7 +15,7 @@ jobs:
               dotnet-version: ${{ matrix.dotnet-version }}
           - name: Install dependencies
             run: dotnet restore
-            working-directory: ConsoleApp
+            working-directory: './Calc.sln'
           - name: Build
             run: dotnet build —configuration Release —no-restore
             working-directory: './Calc.sln'
