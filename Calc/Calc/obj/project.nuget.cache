@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MMvrrrybTaqNm2+1QFo1w0zOcwKH4DtlUiHvOeDU7kZKLCQXuj4SB29A16a8jqMvmwlo8u6uJ/J507bL4VRAAw==",
+  "dgSpecHash": "pQ2C/+X93V/jE+8qgN0TUvOQBMieId9vKgQ1qXcia/Oh+5D7eqMuv2L3pei/lYAc5vR5SThfAP5FkSy4EC3Yrg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Владимир\\Desktop\\Calculator\\Calc\\Calc\\Calc.csproj",
+  "projectFilePath": "C:\\Users\\Владимир\\Desktop\\calc\\Calc\\Calc\\Calc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
