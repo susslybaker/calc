@@ -18,7 +18,7 @@ jobs:
             working-directory: Calc
           - name: Build
             run: dotnet build 
-            working-directory: Calc\Calc.sln
+            working-directory: Calc/Calc.sln
           - name: Test
             run: dotnet test -no-restore —verbosity normal
             working-directory: Calc
