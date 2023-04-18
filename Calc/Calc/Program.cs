@@ -102,8 +102,17 @@
                     result = Convert.ToString(Double.Parse(left) * Double.Parse(right));
                     break;
                 case "/":
-                    result = Convert.ToString(Double.Parse(left) / Double.Parse(right));
-                    break;
+
+                    if (right == "0")
+                    {
+                        result = "Error";
+                        break;
+                    }
+                    else 
+                    {
+                        result = Convert.ToString(Double.Parse(left) / Double.Parse(right));
+                        break;
+                    };
             }
             Dot_Comma(ref result);
             return result;
@@ -116,8 +125,16 @@
             switch (oper)
             {
                 case "-":
-                    result = Convert.ToString(-Double.Parse(center));
-                    break;
+                    if (center == "0")
+                    {
+                        result = Convert.ToString(Double.Parse(center));
+                        break;
+                    }
+                    else
+                    {
+                        result = Convert.ToString(-Double.Parse(center));
+                        break;
+                    }
                 case "":
                     result = Convert.ToString(Double.Parse(center));
                     break;
