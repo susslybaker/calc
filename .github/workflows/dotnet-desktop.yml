@@ -14,7 +14,7 @@ jobs:
             with:
               dotnet-version: ${{ matrix.dotnet-version }}
           - name: Install dependencies
-            run: dotnet restore
+            run: dotnet Release —no-restore
             working-directory: Calc
           - name: Build
             run: dotnet build
