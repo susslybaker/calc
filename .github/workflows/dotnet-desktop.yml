@@ -18,7 +18,7 @@ jobs:
             working-directory: ConsoleApp
           - name: Build
             run: dotnet build —configuration Release —no-restore
-            working-directory: ConsoleApp
+            working-directory: calc\Calc\Calc.sln
           - name: Test
             run: dotnet test -no-restore —verbosity normal
-            working-directory: ConsoleApp
+            working-directory: calc\Calc\CalcTests\TestCalc.csproj
