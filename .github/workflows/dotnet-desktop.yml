@@ -17,7 +17,7 @@ jobs:
             run: dotnet restore
             working-directory: Calc
           - name: Build
-            run: dotnet build -configuration
+            run: dotnet build -configuration Release -no-restore-
             working-directory: Calc
           - name: Test
             run: dotnet test
