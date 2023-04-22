@@ -12,7 +12,7 @@
             return false;
         }
 
-        public static bool Exists(string path)
+  public static bool Exists(string path)
         {
             if (File.Exists(path))
                 return true;
